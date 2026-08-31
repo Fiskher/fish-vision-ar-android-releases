@@ -1,0 +1,55 @@
+FishVisionAR Android SDK — Distribution Terms
+=============================================
+
+Copyright (c) 2026 Fishbuddy AS. All rights reserved.
+
+This repository distributes compiled artifacts of the FishVisionAR Android SDK
+(the "Software"): Android library binaries (AAR), their Maven metadata, and
+TensorFlow Lite model files with associated label data.
+
+The Software is the proprietary, confidential, and copyrighted property of
+Fishbuddy AS (the "Licensor"). Its availability from a public URL is a
+distribution convenience for existing licensees and does NOT place it in the
+public domain, grant any licence, or waive any right.
+
+Use of the Software is governed exclusively by the FishVisionAR Commercial
+License Agreement ("CLA") entered into between Licensor and each licensee, and
+requires a valid licence key supplied by Licensor. Without a valid CLA:
+
+  1. You may not use the Software in any application, whether distributed or
+     internal.
+  2. You may not copy, modify, distribute, sublicense, sell, lease, rent, or
+     otherwise transfer the Software or any derivative work thereof.
+  3. You may not reverse-engineer, decompile, or disassemble the Software,
+     except to the extent such restriction is expressly prohibited by
+     applicable law.
+  4. You may not remove or alter any proprietary notices, labels, or marks.
+
+The TensorFlow Lite model files (`*.tflite`) and associated label data are
+commercially valuable trade secrets of the Licensor. Their presence inside a
+consumer application built against the Software does not transfer ownership,
+and the application's distributor remains bound by the CLA. Extracting them
+from a licensed application for use elsewhere is expressly prohibited.
+
+The Software incorporates third-party open-source components subject to their
+respective licenses, including but not limited to:
+
+  - ARCore SDK (Apache License 2.0, Google LLC)
+  - TensorFlow Lite + Support library (Apache License 2.0, TensorFlow Authors)
+  - Kotlin standard library (Apache License 2.0, JetBrains s.r.o.)
+  - Jetpack Compose (Apache License 2.0, The Android Open Source Project)
+  - OkHttp (Apache License 2.0, Square, Inc.)
+  - de.javagl:obj (MIT License, Marco Hutter)
+
+These components are used in accordance with their licenses; their inclusion
+does not transfer copyright of the proprietary FishVisionAR code, models, or
+assets.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE, EXCEPT AS EXPRESSLY PROVIDED IN THE CLA.
+
+For licensing inquiries: licensing@fishbuddy.app
