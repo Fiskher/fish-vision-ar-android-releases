@@ -1,0 +1,170 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "app.fishbuddy",
+    "module": "fish-vision-ar",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fish-vision-ar-0.1.0.aar",
+          "url": "fish-vision-ar-0.1.0.aar",
+          "size": 396153,
+          "sha512": "d771e3a3a88ee926616a51349087f59156603c00c8d8de77e3c9f55b32afc6fca5ccf063ac45f05bdc6f8d3620d8e3b20a50139059f175c06ebd26e744339ae5",
+          "sha256": "ec8b5fa83eecc1d0687f754e1e9b307b32e51e5e4f825e2e34a8a4956894a21f",
+          "sha1": "a485f472714fb486c7bc887553f23303aa6d3be1",
+          "md5": "3618e460f5a4ab009910a74c4bc574b2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2025.12.01"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.google.ar",
+          "module": "core",
+          "version": {
+            "requires": "1.52.0"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "tensorflow-lite-support",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.tensorflow",
+          "module": "tensorflow-lite-metadata",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.3.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "de.javagl",
+          "module": "obj",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fish-vision-ar-0.1.0.aar",
+          "url": "fish-vision-ar-0.1.0.aar",
+          "size": 396153,
+          "sha512": "d771e3a3a88ee926616a51349087f59156603c00c8d8de77e3c9f55b32afc6fca5ccf063ac45f05bdc6f8d3620d8e3b20a50139059f175c06ebd26e744339ae5",
+          "sha256": "ec8b5fa83eecc1d0687f754e1e9b307b32e51e5e4f825e2e34a8a4956894a21f",
+          "sha1": "a485f472714fb486c7bc887553f23303aa6d3be1",
+          "md5": "3618e460f5a4ab009910a74c4bc574b2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fish-vision-ar-0.1.0-sources.jar",
+          "url": "fish-vision-ar-0.1.0-sources.jar",
+          "size": 117355,
+          "sha512": "b8cdd2551c8454f01977a6ae91bd59fa3f0a93a9c145d9353e4318dfcbde642c2f97a04663358a432dc06e02c72ebedc36c8b4b0464fac93cf384dcb024f4a8c",
+          "sha256": "082e37f6d277a00165c786bb7c0c5cd813e1195d1a3ce886cab6acdcdefa3ab4",
+          "sha1": "314906e344ed46b37b923661786234a4f8dce499",
+          "md5": "ecbfcefb08df28715e6e3b05975c8d69"
+        }
+      ]
+    }
+  ]
+}
